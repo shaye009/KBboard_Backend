@@ -17,8 +17,22 @@
         "quotes": ["error", "single"],
         "no-tabs": 0,
         "indent": ["error", 4],
-        // "space-in-brackets": ["error", "always"],
         "prettier/prettier": ["error"],
-        "no-console": 1
+        "no-console": 1,
+        "no-shadow": "off",
+        "no-use-before-define": ["error", {
+            "functions": true,
+            "classes": true,
+            "variables": true,
+            "allowNamedExports": false
+        }],
+        "no-param-reassign": ["error", { "props": false }],
+        "sort-keys": "error",
+        "no-unused-vars": "error",
+        "no-var": "error",
+        "eqeqeq": ["error", "always"],
+        "no-empty-function": ["error", { "allow": ["methods"] }],
+        "no-else-return": ["error", {allowElseIf: false}],
+        "no-nested-ternary": "error"
     }
 }
