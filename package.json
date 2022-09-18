@@ -6,8 +6,8 @@
 	"scripts": {
 		"dev": "nodemon server/app.js",
 		"debug": "nodemon --inspect server/app.js",
-		"lint": "npx eslint src",
-		"lint:fix": "npx eslint src --fix",
+		"lint": "npx eslint server",
+		"lint:fix": "npx eslint server --fix",
 		"lint:create": "npx eslint --init",
 		"format": "prettier . --write",
 		"prepare": "husky install"
