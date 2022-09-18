@@ -44,7 +44,8 @@
 		"lodash": "^4.17.21",
 		"mongoose": "^6.6.1",
 		"pm2": "^5.2.0",
-		"uuid": "^9.0.0"
+		"uuid": "^9.0.0",
+		"winston": "^3.8.2"
 	},
 	"lint-staged": {
 		"*.js": "eslint --cache --fix",

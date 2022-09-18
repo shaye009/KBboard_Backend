@@ -5,6 +5,14 @@ const app = express();
 app.get('/', (req, res) => {
 	res.json('hello world');
 });
+
+const winston = require('winston');
+
+const logConfiguration = {
+	transports: [new winston.transports.Console()]
+};
+const logger = winston.createLogger(logConfiguration);
+
 app.listen(3000, () => {
-	console.log('server listen');
+	logger.info('server listen');
 });
