@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon express-server/app.js",
-		"debug": "nodemon --inspect express-server/app.js",
+		"dev": "nodemon express-server/index.js",
+		"debug": "nodemon --inspect express-server/index.js",
 		"lint": "npx eslint src",
 		"lint:fix": "npx eslint src --fix",
 		"lint:create": "npx eslint --init",
