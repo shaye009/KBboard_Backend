@@ -16,6 +16,7 @@
 -   [ ] Tests
 -   [ ] Translations
 -   [ ] Documentation
+-   [ ] Description
 
 # Screenshots
 
