@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon express-server/index.js",
-		"debug": "nodemon --inspect express-server/index.js",
+		"dev": "nodemon src/index.js",
+		"debug": "nodemon --inspect src/index.js",
 		"lint": "npx eslint src",
 		"lint:fix": "npx eslint src --fix",
 		"lint:create": "npx eslint --init",
@@ -50,5 +50,6 @@
 	"lint-staged": {
 		"*.js": "eslint --cache --fix",
 		"*.{js,css,md,html,json}": "npm run format"
-	}
+	},
+	"type": "commonjs"
 }
