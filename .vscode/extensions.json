@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"formulahendry.auto-close-tag",
+		"steoates.autoimport",
+		"dbaeumer.vscode-eslint",
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+		"kisstkondoros.vscode-gutter-preview",
+		"christian-kohler.path-intellisense",
+		"alefragnani.project-manager",
+		"styled-components.vscode-styled-components",
+		"Gruntfuggly.todo-tree",
+		"alefragnani.Bookmarks"
+	]
+}
