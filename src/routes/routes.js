@@ -1,6 +1,6 @@
 const express = require('express');
 
-const app = express();
-app.get('/', (req, res) => {
+const router = express();
+router.get('/', (req, res) => {
 	res.json('hello world');
 });
